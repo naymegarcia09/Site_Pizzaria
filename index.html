@@ -1,11 +1,13 @@
 <!DOCTYPE html>
 <html lang="pt-br">
+
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>La Pizza - Pizzaria</title>
 </head>
-<body> 
+
+<body>
     <header>
         <div>
             <a href="#">La Pizza</a>
@@ -27,13 +29,101 @@
                     <img src="img/pizza.sobre.jpeg" width="600" height="400" alt="Pizza de Ribeirão Pires">
                 </figure>
             </div>
-        </section> 
+        </section>
         <section id="Cardápio">
-            <p>Cardápio</p>
+            <div>
+                <h2>Cardápio</h2>
+                <p>As opções mais famosas do nosso menu.</p>
+
+                <div>
+                    <!--ITEM 1 -->
+                    <article>
+                        <figure>
+                            <img src="img/pizza_marguerita.jpg" width="300" height="200" alt="pizza de Marguerita"/>
+                        </figure>
+                        <h3>Pizza de Marguerita</h3>
+                        <p>Molho de Tomate, Mozzarella e manjericão fresco.</p>
+                        <span>R$ 39,00.</span>
+                    </article>
+                    <!--ITEM 2 -->
+                    <article>
+                        <figure>
+                            <img src="img/pizza_bavcon.jpg" width="300" height="200" alt="pizza de bacon"/>
+                        </figure>
+                        <h3>Pizza de Bacon</h3>
+                        <p>Molho de Tomate, Mozzarella e bacon</p>
+                        <span>R$ 39,00.</span>
+                    </article>
+                    <!--ITEM 3 -->
+                    <article>
+                        <figure>
+                            <img src="img/pizza-de-frango.jpg" width="300" height="200" alt="pizza de frango"/>
+                        </figure>
+                        <h3>Pizza de Frango</h3>
+                        <p>Molho de Tomate, Mozzarella e frango desfiado.</p>
+                        <span>R$ 39,00.</span>
+                    </article>
+                    <!--ITEM 4 -->
+                    <article>
+                        <figure>
+                            <img src="img/Pizza-Quatro-Queijos.jpg" width="300" height="200" alt="pizza de quatro queijos" />
+                        </figure>
+                        <h3>Pizza de  Quatro Queijos</h3>
+                        <p>Molho de Tomate, Mozzarella e Queijo.</p>
+                        <span>R$ 39,00.</span>
+                    </article>
+                    <!--ITEM 5 -->
+                    <article>
+                        <figure>
+                            <img src="img/pizza_mm.jpg" width="300" height="200" alt="pizza de m&m"/>
+                        </figure>
+                        <h3>Pizza de M&M </h3>
+                        <p>Calda de Chocolate e M&M.</p>
+                        <span>R$ 35,00.</span>
+                    </article>
+                    <!--ITEM 6 -->
+                    <article>
+                        <figure>
+                            <img src="img/banana-speciale.jpg" width="300" height="200" alt="pizza de bannoff"/>
+                        </figure>
+                        <h3>Pizza doce de Bannoff</h3>
+                        <p>Doce de Leite, Banana e Canela.</p>
+                        <span>R$ 35,00.</span>
+                    </article>
+                    <!--ITEM 7 -->
+                    <article>
+                        <figure>
+                            <img src="img/sabores_de_pizza_morango_com_chocolate.jpg" width="300" height="200" alt="pizza de morango com chocolate "/>
+                        </figure>
+                        <h3>Pizza de Morango com Chocolate</h3>
+                        <p>Calda de chocolate e Morangos.</p>
+                        <span>R$ 35,00.</span>
+                    </article>
+
+                </div>
+            </div>
         </section>
         <section id="Contato">
-            <p>Contato</p>
+            <div>
+                <h3>Fale com a gente!</h3>
+                <form>
+                    <label>
+                        Nome
+                        <input type="text" placeholder="Digite seu nome completo..." name="nome" required/>
+                    </label>
+                    <label>
+                        Telefone
+                        <input type="tel" placeholder="ex;(xx) xxxxx-xxxx" name="Telefone" required/>
+                    </label>
+                    <label>
+                        Mensagem:
+                        <textarea name="mensagem" placeholder="Digite sua mensagem..." rows="5"></textarea>
+                    </label>
+                    <input type="submit" name="enviar" />
+                </form>
+            </div>
         </section>
     </main>
 </body>
+
 </html>
