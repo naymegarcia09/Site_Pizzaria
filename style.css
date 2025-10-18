@@ -157,19 +157,21 @@ padding: 4px 8px 4px 8px;
 border-radius: 8px;
 }
 
-.contact.grid {
+.contact-grid {
     display: flex;
     flex-wrap: wrap;
     gap: 24px;
     align-items: flex-start;
 }
 
-.contact.grid > div {
+.contact-grid  div {
     flex-grow: 1;
     flex-shrink: 1;
     flex-basis: 320px;
     min-width: 260px;
+    justify-content: center;
 }
+
 
 form {
     display: flex;
@@ -210,5 +212,46 @@ input:focus, textarea:focus {
 }
 
 .btn:hover {
-    filter: brightness(1.15);
+    filter: brightness(1.05);
+}
+
+.mapa iframe{
+    width: 100%;
+    height: 100%;
+    border: 1px solid #F2ACB9;
+    border-radius: 10px;
+}
+
+footer{
+    border-top: 1px solid #F2ACB9;
+    background-color: #fccfd7;
+    color: #000;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    text-align: center;
+}
+
+footer a {
+    text-decoration: none;
+    color: #ff607d;
+    font-weight: 600;
+}
+
+@media (max-widht: 870px) {
+    section {
+        padding-top: 56px;
+        padding-bottom: 56px;
+    }
+
+    nav a {
+        padding: 10px 11px 10px 11px;
+    }
+
+    .hero-text {
+        align-items: center;
+        justify-content: baseline;
+        display: flex;
+        flex-direction: column;
+    }
+    
 }
